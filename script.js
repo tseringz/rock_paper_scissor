@@ -25,17 +25,17 @@ function computerPlay() {
     if(randomSelection === "rock")
     {
     document.getElementById('computer-hand').innerHTML = `<img class = 'hand-big' 
-                src='../rock_paper_scissors/images/rock-hand-big.png' alt='hand gesture of rock'>`;
+                src='../rock_paper_scissor/images/rock-hand-big.png' alt='hand gesture of rock'>`;
     }
     else if(randomSelection === "paper")
     {
     document.getElementById('computer-hand').innerHTML = `<img class = 'hand-big' 
-            src = '../rock_paper_scissors/images/paper-hand-big.png' alt='hand gesture of paper'>`;
+            src = '../rock_paper_scissor/images/paper-hand-big.png' alt='hand gesture of paper'>`;
     }
     else
     {
     document.getElementById('computer-hand').innerHTML = `<img class = 'hand-big' 
-      src = '../rock_paper_scissors/images/scissor-hand-big.png' alt = 'hand gesture of scissor'>`;
+      src = '../rock_paper_scissor/images/scissor-hand-big.png' alt = 'hand gesture of scissor'>`;
     }
     return randomSelection;
 }
@@ -117,16 +117,16 @@ buttons.forEach((button) => {
     playerSelection = button.value;
     if(playerSelection === "rock") {
             document.getElementById('playerone-hand').innerHTML = `<img class = 'hand-big' 
-            src='../rock_paper_scissors/images/rock-hand-big.png' alt='hand gesture of rock'>`;
+            src='../rock_paper_scissor/images/rock-hand-big.png' alt='hand gesture of rock'>`;
      }
       else if(playerSelection === "paper")
       {
      document.getElementById('playerone-hand').innerHTML = `<img class  = 'hand-big' 
-          src = '../rock_paper_scissors/images/paper-hand-big.png' alt='hand gesture of paper'>`;
+          src = '../rock_paper_scissor/images/paper-hand-big.png' alt='hand gesture of paper'>`;
       }
       else{
       document.getElementById('playerone-hand').innerHTML = `<img class = 'hand-big' 
-      src = '../rock_paper_scissors/images/scissor-hand-big.png' alt = 'hand gesture of scissor'>`;
+      src = '../rock_paper_scissor/images/scissor-hand-big.png' alt = 'hand gesture of scissor'>`;
       }
     computerSelection = computerPlay();
     playRound(playerSelection, computerSelection);
