@@ -1,0 +1,228 @@
+
+body
+{
+margin: 0;
+}
+#hero
+{
+height: 110vh;
+padding: 20px 20px 20px 20px;
+background-image: linear-gradient(to right, #F1F2F2, #DA1C5C);
+}
+a
+{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.c-flex
+{
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+}
+.c-flex__flex-child
+{
+display: flex;
+flex: 1 1 auto;
+flex-direction: column;
+justify-content: space-between;
+margin-bottom: 40px;
+margin-right: 35px;
+}
+.c-flex__flex-child__child
+{
+display: flex;
+flex: 1 1 auto;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 10px;
+}
+.c-flex__flex-child__child.is-column
+{
+display: flex;
+flex: 1 1 auto;
+flex-direction: column;
+justify-content: space-around;
+margin-top: -20px;
+}
+.element-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#winner
+{
+    font-family: "Respira-Black";
+    src: url("rock_paper_scissor/respira font/Respira-Black.otf");
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+   font-size: 0.8em;
+   text-align: center;
+}
+.hand-big
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.hand-small
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+#who-win
+{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+   font-size: 1em;
+}
+button
+{
+border: none;
+background: none;
+}
+.player-one, .computer
+{
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   padding-top: 30px;
+   font-size: 1em;
+}
+#heading1
+{
+    font-family: "Respira-Black";
+    src: url("rock_paper_scissor/respira font/Respira-Black.otf");
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 7.5em;
+    text-align: center;
+}
+#heading2
+{
+    font-family: "Respira-Black";
+    src: url("rock_paper_scissor/respira font/Respira-Black.otf");
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 5em;
+    margin-top: 20px;
+    margin-bottom: -100px;
+    
+}
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: -50px;
+}
+.right
+{
+text-align: left;
+}
+.left
+{
+text-align: right;
+}
+.c-nav
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   padding-top: 30px;
+   font-size: 1.5em;
+}
+
+.main-container
+{
+align-content: center; 
+margin-left: -25px;    
+width: 100vw;
+}
+
+.content-wrapper
+{
+display: flex;
+flex: 1 1 auto;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.element-wrapper
+{
+ margin-right: 20px;
+ text-align: center;
+}
+
+h4{
+    margin-left: 20px;
+    text-align: center;
+}
+#modal-container
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.15);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#modal-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    width:  500px;
+    opacity: 100%;
+
+}
+#restart
+{
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   padding-top: 10px;
+   font-size: 1em;
+}
+
+#restart:hover
+{
+    text-decoration: underline 2px;
+}
+.background
+{
+position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #e0e0e0, #7d7d7e);
+  height: 300px;
+  width:  500px;
+  -webkit-filter: blur(30px);
+  filter: blur(20px);
+  z-index: -1;
+}
