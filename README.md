@@ -8,4 +8,4 @@ Implematation of rock paper scissor game from The Odin Project curriculum.
 4. Improve my understanding of Javascript function(breakdown in smaller function, scopes, calling, invoking etc.)
 
 ## Link
-[Live Demo of Game](https://tseringz.github.io/rock_paper_scissor/)
+[Live Demo of the Game](https://tseringz.github.io/rock_paper_scissor/)
