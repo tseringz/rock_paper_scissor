@@ -9,3 +9,4 @@ Implematation of rock paper scissor game from The Odin Project curriculum.
 
 ## Link
 [Live Demo of the Game](https://tseringz.github.io/rock_paper_scissor/)
+![rock-paper-scissor](https://user-images.githubusercontent.com/15078245/218287636-1e9e1225-cb86-40b1-9e8c-28f6373d5269.jpg)
